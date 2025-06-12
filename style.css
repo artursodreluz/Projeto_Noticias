@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -10,10 +11,58 @@
     --vermillion: #F15D51;
     --yellow: #E9AA52;
     --silver: #C5C6CE;
+    --gunmetal: #5E607A;
 }
 
 body {
     padding: 1.75em 1rem;
     background-color: var(--almost-white);
 
+}
+
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    button {
+        border: none;
+        background: none;
+    }
+}
+
+.primeira-secao {
+    margin-bottom: 4rem;
+
+    img {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        line-height: 100%;
+        color: var(--dark-blue);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 0.9375rem;
+        line-height: 1.625rem;
+        color: var(--gunmetal);
+        margin-bottom: 1.5rem;
+    }
+
+    button {
+        padding: .75rem 2rem;
+        background-color: var(--vermillion);
+        border: none;
+        text-transform: uppercase;
+        color: var(--almost-white);
+        font-weight: 700;
+        font-size: .875rem;
+        letter-spacing: .275rem;
+        line-height: 1.5rem;
+    }
 }
