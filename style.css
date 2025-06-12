@@ -35,7 +35,7 @@ header {
     align-items: center;
     margin-bottom: 2rem;
 
-    min-width: 1110px;
+    max-width: 1110px;
     margin-inline: auto;
 
     button {
